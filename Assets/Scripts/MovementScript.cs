@@ -180,7 +180,7 @@ public class MovementScript : MonoBehaviour
 
         transform.Translate(0f, moveSpeedReverse * Time.deltaTime * -1f, 0f);
     }
-    
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Enemy"))
