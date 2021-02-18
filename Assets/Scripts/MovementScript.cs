@@ -8,7 +8,10 @@ public class MovementScript : MonoBehaviour
     public string keyMoveReverse;
     public string keyRotateRight;
     public string keyRotateLeft;
-
+    public string keyPlantBomb;
+    public GameObject bombPrefab;
+    public GameObject tank;
+    
     bool moveForward = false;
     bool moveReverse = false;
     float moveSpeed = 0f;
@@ -27,6 +30,13 @@ public class MovementScript : MonoBehaviour
 
     void Update()
     {
+
+        if (Input.GetKeyDown(keyPlantBomb))
+        {
+            GameObject tempBomb = Instantiate(bombPrefab) as GameObject;
+            tempBomb.transform.position = tank.transform.position;
+            tempBomb.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+        }
         
         if (Input.GetKey("escape"))
         {

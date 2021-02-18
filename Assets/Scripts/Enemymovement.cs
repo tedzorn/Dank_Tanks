@@ -104,7 +104,7 @@ public class Enemymovement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-	    if (other.gameObject.CompareTag("Projectile") | other.gameObject.CompareTag("Player"))
+	    if (other.gameObject.CompareTag("Projectile") | other.gameObject.CompareTag("Player") | other.gameObject.CompareTag("Bomb"))
 	    {
 		    Destroy(gameObject);
 	    }
