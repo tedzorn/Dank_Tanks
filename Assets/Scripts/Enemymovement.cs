@@ -22,7 +22,7 @@ public class Enemymovement : MonoBehaviour
     {
         enemyrb = gameObject.GetComponent<Rigidbody2D>();
         gObj = GameObject.Find("Tank Blue Base Idle");
-        Screen.SetResolution(1280, 720, false);
+        
         
     }
 		

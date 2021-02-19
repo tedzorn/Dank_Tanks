@@ -38,10 +38,7 @@ public class MovementScript : MonoBehaviour
             tempBomb.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
         }
         
-        if (Input.GetKey("escape"))
-        {
-            Application.Quit();
-        }
+        
         if(Input.GetKeyDown(keyRotateLeft))
         {
             rotateLeft = true;
