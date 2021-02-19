@@ -352,8 +352,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Shoot all the enemies in a level to move on.\nThere are many types of
-    tanks, each with their own weapon. \nSome tanks are smarter than others, so watch
-    out for them. \nPick up tokens for upgrades.\n\t\t\t\t\t\tHave Fun! \n"
+    tanks, each with their own strategies.\nSome tanks are smarter than others, so
+    watch out for them. \n\nHave Fun! \n"
 --- !u!222 &405928936
 CanvasRenderer:
   m_ObjectHideFlags: 0

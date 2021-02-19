@@ -28,10 +28,7 @@ public class MovementScript : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKey("escape"))
-        {
-            Application.Quit();
-        }
+        
         if(Input.GetKeyDown(keyRotateLeft))
         {
             rotateLeft = true;
