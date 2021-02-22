@@ -316,8 +316,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 374.21, y: -411.12}
-  m_SizeDelta: {x: 748.3063, y: 500.5207}
+  m_AnchoredPosition: {x: 303.6, y: -397.2}
+  m_SizeDelta: {x: 607.0292, y: 472.72845}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &405928935
 MonoBehaviour:
@@ -396,8 +396,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -374.15, y: -420.8}
-  m_SizeDelta: {x: 748.3063, y: 519.8869}
+  m_AnchoredPosition: {x: -315.1, y: -411.5}
+  m_SizeDelta: {x: 630.18945, y: 501.3587}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &513726117
 MonoBehaviour:
@@ -433,8 +433,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Use WASD to move \nW is Accelerate( move forward in the direction your
     facing)\nA is Turn Left\nD is Turn Right\nS is Reverse(Deccelerate, and move
-    backwards)\nMove the mouse to aim\nShoot with Spacebar or Right Click\nEscape
-    quits the game\n[Add New Controls Here]\n"
+    backwards)\nMove the mouse to aim\nShoot with Spacebar or Left Click\nEscape
+    quits the game\n"
 --- !u!222 &513726118
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -559,7 +559,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.2, y: -345}
+  m_AnchoredPosition: {x: 325, y: -292}
   m_SizeDelta: {x: 463.22168, y: 95.44643}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &768014275
@@ -1062,7 +1062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.2, y: 321.9}
+  m_AnchoredPosition: {x: 3.2, y: 300}
   m_SizeDelta: {x: 1061.8684, y: 208.42392}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1980381907
@@ -1162,6 +1162,9 @@ MonoBehaviour:
   keyMoveReverse: s
   keyRotateRight: d
   keyRotateLeft: a
+  keyPlantBomb: e
+  bombPrefab: {fileID: 0}
+  tank: {fileID: 0}
 --- !u!212 &2028491666
 SpriteRenderer:
   m_ObjectHideFlags: 0

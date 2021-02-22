@@ -97,6 +97,7 @@ public class SecondEnemyMovement : MonoBehaviour
 		var neededRotation = Quaternion.LookRotation(Vector3.forward, aimDirection - transform.position);
         transform.rotation = Quaternion.Slerp(transform.rotation,neededRotation, 1f * Time.deltaTime);
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
 	    if (other.gameObject.CompareTag("Projectile") | other.gameObject.CompareTag("Player"))

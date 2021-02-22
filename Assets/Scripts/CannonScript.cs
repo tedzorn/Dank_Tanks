@@ -18,7 +18,7 @@ public class CannonScript : MonoBehaviour
         z_angle = new Vector3(0, 0, angle);
         transform.eulerAngles = z_angle;
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             Fire();
         }

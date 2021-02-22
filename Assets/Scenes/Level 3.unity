@@ -3534,8 +3534,8 @@ GameObject:
   - component: {fileID: 1421331940}
   - component: {fileID: 1421331939}
   - component: {fileID: 1421331938}
-  - component: {fileID: 1421331937}
   - component: {fileID: 1421331936}
+  - component: {fileID: 1421331937}
   m_Layer: 0
   m_Name: Tank Green Base Idle (1)
   m_TagString: Enemy
@@ -3578,14 +3578,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1421331935}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6969235ffe618479495db520a7aa94a0, type: 3}
+  m_Script: {fileID: 11500000, guid: b76d66b6b115a482cadaec1f21f1ee1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.2
+  speed: 0.3
   Health: 10
-  gObj: {fileID: 0}
-  playerrb: {fileID: 0}
   enemyrb: {fileID: 0}
+  x1: -8.16
+  y1: 3.3
+  x2: -8.16
+  y2: -3.3
 --- !u!50 &1421331938
 Rigidbody2D:
   serializedVersion: 4
@@ -3606,7 +3608,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1421331939
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3664,14 +3666,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421331935}
-  m_LocalRotation: {x: 0, y: 0, z: -0.95371693, w: 0.30070582}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: -8.16, y: 3.29, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.5}
   m_Children:
   - {fileID: 505773386}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -145}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &1932852685
 GameObject:
   m_ObjectHideFlags: 0
