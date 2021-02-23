@@ -606,7 +606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2ae4cd5bc5c345a0a2cf0d27f202c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _projectile: {fileID: 7721305939640050229, guid: 9a08741977a094c9cbdccf7d3654eff4,
+  _projectile: {fileID: 1301073168631072324, guid: f45b28dfeaa564c048e39fc7235974b6,
     type: 3}
 --- !u!212 &768014278
 SpriteRenderer:
@@ -1163,8 +1163,9 @@ MonoBehaviour:
   keyRotateRight: d
   keyRotateLeft: a
   keyPlantBomb: e
-  bombPrefab: {fileID: 0}
-  tank: {fileID: 0}
+  bombPrefab: {fileID: 7721305939640050229, guid: 3f46d73654bb948fd950506531675c6d,
+    type: 3}
+  tank: {fileID: 2028491663}
 --- !u!212 &2028491666
 SpriteRenderer:
   m_ObjectHideFlags: 0
