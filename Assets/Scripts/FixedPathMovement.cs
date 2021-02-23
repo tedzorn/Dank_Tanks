@@ -29,4 +29,11 @@ public class FixedPathMovement : MonoBehaviour
 
     	transform.position = Vector3.Lerp (p1, p2, Mathf.PingPong(Time.time*speed, 1.0f));
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+	    if (other.gameObject.CompareTag("PlayerProjectile") | other.gameObject.CompareTag("Player") | other.gameObject.CompareTag("Bomb"))
+	    {
+		    Destroy(gameObject);
+	    }
+    }
 }

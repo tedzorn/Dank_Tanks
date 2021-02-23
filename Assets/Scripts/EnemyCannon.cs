@@ -28,22 +28,31 @@ public class EnemyCannon : MonoBehaviour
        // if (waitTime >= 1f)
        // {
           //  waitTime = waitTime % 1f;
-            GunMovement();
-      //  }
+          if (gObj??false)
+          {
+              GunMovement();
+          }
+          //  }
 
       waitTime += Time.deltaTime;
 
       if (waitTime >= 3f)
       {
-          Fire();
+          if (gObj ?? false)
+          {
+              Fire();
+          }
+
           waitTime = 0f;
       }
     }
 
     void GunMovement()
     {
-        playerrb = gObj.GetComponent<Rigidbody2D>();
         
+            playerrb = gObj.GetComponent<Rigidbody2D>();
+        
+
         Vector3 playerLocation = playerrb.position;
         playerLocation.z = 0f;
 

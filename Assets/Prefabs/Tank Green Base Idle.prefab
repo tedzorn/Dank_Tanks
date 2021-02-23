@@ -98,8 +98,6 @@ MonoBehaviour:
   playerrb: {fileID: 0}
   Gunrotationspeed: 0.5
   waitTime: 0
-  _projectile: {fileID: 7721305939640050229, guid: 9a08741977a094c9cbdccf7d3654eff4,
-    type: 3}
 --- !u!1 &4434024411751347397
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +111,7 @@ GameObject:
   - component: {fileID: 4434024411751347393}
   - component: {fileID: 4434024411751347398}
   m_Layer: 0
-  m_Name: Tank Green Base Idle
+  m_Name: AItank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -100,7 +100,7 @@ public class SecondEnemyMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-	    if (other.gameObject.CompareTag("Projectile") | other.gameObject.CompareTag("Player"))
+	    if (other.gameObject.CompareTag("PlayerProjectile") | other.gameObject.CompareTag("Player"))
 	    {
 		    Destroy(gameObject);
 	    }

@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2ae4cd5bc5c345a0a2cf0d27f202c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _projectile: {fileID: 7721305939640050229, guid: 9a08741977a094c9cbdccf7d3654eff4,
+  _projectile: {fileID: 1301073168631072324, guid: f45b28dfeaa564c048e39fc7235974b6,
     type: 3}
 --- !u!212 &211715013
 SpriteRenderer:
@@ -452,7 +452,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3776,8 +3776,9 @@ MonoBehaviour:
   keyRotateRight: d
   keyRotateLeft: a
   keyPlantBomb: e
-  bombPrefab: {fileID: 0}
-  tank: {fileID: 0}
+  bombPrefab: {fileID: 7721305939640050229, guid: 3f46d73654bb948fd950506531675c6d,
+    type: 3}
+  tank: {fileID: 1932852685}
 --- !u!50 &1932852689
 Rigidbody2D:
   serializedVersion: 4
