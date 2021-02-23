@@ -17,7 +17,11 @@ public class Projectile : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
+<<<<<<< Updated upstream
 		if (other.gameObject.CompareTag("Enemy") | other.gameObject.CompareTag("Rock"))
+=======
+		if (other.gameObject.CompareTag("Player") | other.gameObject.CompareTag("Rock"))
+>>>>>>> Stashed changes
 		{
 			Destroy(gameObject);
 		}

@@ -29,10 +29,12 @@ public class Enemymovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        EnemyMovement();
-        EnemyRotation();
-        
-        
+	    if (gObj ?? false)
+	    {
+		    EnemyMovement();
+		    EnemyRotation();
+	    }
+
     }
 
     void EnemyMovement()
@@ -104,7 +106,7 @@ public class Enemymovement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-	    if (other.gameObject.CompareTag("Projectile") | other.gameObject.CompareTag("Player") | other.gameObject.CompareTag("Bomb"))
+	    if (other.gameObject.CompareTag("PlayerProjectile") | other.gameObject.CompareTag("Player") | other.gameObject.CompareTag("Bomb"))
 	    {
 		    Destroy(gameObject);
 	    }

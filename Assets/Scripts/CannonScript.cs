@@ -31,6 +31,6 @@ public class CannonScript : MonoBehaviour
 
         Vector3 aimDrection = (mouseLocation - transform.position).normalized;
         var newProjectile = Instantiate(_projectile, transform.position + transform.up * 0.9f, transform.rotation) as GameObject;
-        newProjectile.GetComponent<Projectile>().Initialize(aimDrection * 5);
+        newProjectile.GetComponent<PlayerProjectile>().Initialize(aimDrection * 5);
     }
 }
