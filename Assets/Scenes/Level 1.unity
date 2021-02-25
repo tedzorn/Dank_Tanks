@@ -696,7 +696,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.052811623, y: 0.8097807}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -707,7 +707,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.56, y: 5.12}
+  m_Size: {x: 2.172711, y: 3.1483562}
   m_EdgeRadius: 0
 --- !u!1 &740979166
 GameObject:
@@ -3706,7 +3706,6 @@ GameObject:
   - component: {fileID: 1949569763}
   - component: {fileID: 1949569764}
   - component: {fileID: 1949569765}
-  - component: {fileID: 1949569766}
   m_Layer: 0
   m_Name: Tank Green Turret Idle
   m_TagString: Enemy
@@ -3796,32 +3795,6 @@ MonoBehaviour:
   waitTime: 0
   _projectile: {fileID: 7721305939640050229, guid: 9a08741977a094c9cbdccf7d3654eff4,
     type: 3}
---- !u!61 &1949569766
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949569762}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 1
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.09575653, y: -0.05931002}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 1.37, z: 0.61, w: 0}
-    pivot: {x: 0.38349494, y: 0.46116492}
-    oldSize: {x: 2.56, y: 5.12}
-    newSize: {x: 2.56, y: 5.12}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.3154416, y: 3.516789}
-  m_EdgeRadius: 0
 --- !u!1001 &5471115629822814547
 PrefabInstance:
   m_ObjectHideFlags: 0
