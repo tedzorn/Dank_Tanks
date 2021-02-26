@@ -98,6 +98,8 @@ MonoBehaviour:
   playerrb: {fileID: 0}
   Gunrotationspeed: 0.5
   waitTime: 0
+  _projectile: {fileID: 7721305939640050229, guid: 9a08741977a094c9cbdccf7d3654eff4,
+    type: 3}
 --- !u!1 &4434024411751347397
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,9 +112,11 @@ GameObject:
   - component: {fileID: 4434024411751347396}
   - component: {fileID: 4434024411751347393}
   - component: {fileID: 4434024411751347398}
+  - component: {fileID: 907786999756255237}
+  - component: {fileID: 3400000513539471804}
   m_Layer: 0
-  m_Name: AItank
-  m_TagString: Untagged
+  m_Name: Tank Green Base Idle
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -220,3 +224,41 @@ MonoBehaviour:
   gObj: {fileID: 0}
   playerrb: {fileID: 0}
   enemyrb: {fileID: 0}
+--- !u!61 &907786999756255237
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4434024411751347397}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.05384898, y: 0.8560606}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 5.12}
+    newSize: {x: 2.56, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.452302, y: 3.4078786}
+  m_EdgeRadius: 0
+--- !u!114 &3400000513539471804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4434024411751347397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 196f42c5840ec473495bc52636684edc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

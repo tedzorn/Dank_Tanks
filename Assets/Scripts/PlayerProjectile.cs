@@ -16,7 +16,7 @@ public class PlayerProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Enemy") | other.gameObject.CompareTag("Rock"))
+        if (other.gameObject.CompareTag("Enemy") | other.gameObject.CompareTag("Rock") | other.gameObject.CompareTag("Boss"))
         {
             Destroy(gameObject);
         }
