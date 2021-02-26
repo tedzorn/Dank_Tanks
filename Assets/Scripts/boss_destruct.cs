@@ -10,7 +10,7 @@ public class boss_destruct : MonoBehaviour
     {
         
    
-        if (other.gameObject.CompareTag("Projectile") | other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("PlayerProjectile") | other.gameObject.CompareTag("Player"))
         {
 			if (health == 0){
             	Destroy(gameObject);
