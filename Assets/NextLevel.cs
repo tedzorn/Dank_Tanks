@@ -20,6 +20,7 @@ public class NextLevel : MonoBehaviour
 
         m_Scene = SceneManager.GetActiveScene();
         CanvasB.SetActive(false);
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -27,6 +28,7 @@ public class NextLevel : MonoBehaviour
     {
         if (GameObject.FindGameObjectsWithTag("Enemy").Length <= 0)
         {
+            Time.timeScale = 0;
             nextlevelfun();
 
         }

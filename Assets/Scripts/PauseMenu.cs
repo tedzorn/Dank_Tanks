@@ -20,6 +20,7 @@ public class PauseMenu : MonoBehaviour
         restartButton.onClick.AddListener(restartcall);
         m_Scene = SceneManager.GetActiveScene();
         sceneName = m_Scene.name;
+        Time.timeScale = 1;
         CanvasA.SetActive(false);
     }
 
