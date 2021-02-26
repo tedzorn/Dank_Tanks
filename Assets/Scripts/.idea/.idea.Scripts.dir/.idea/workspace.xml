@@ -36,12 +36,12 @@
     <setting file="file://$PROJECT_DIR$/PauseMenu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerProjectile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Enemy_Spawner.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../NextLevel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BossLevelEnd.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/boss_destruct.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MovementScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MenuScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LevelLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../NextLevel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Enemymovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CannonScript.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -58,15 +58,15 @@
         <option value="$PROJECT_DIR$/../LevelLoader.cs" />
         <option value="$PROJECT_DIR$/../EnemyCollision.cs" />
         <option value="$PROJECT_DIR$/Levelloader2.cs" />
-        <option value="$PROJECT_DIR$/MenuScript.cs" />
         <option value="$PROJECT_DIR$/Enemymovement.cs" />
         <option value="$PROJECT_DIR$/PlayerProjectile.cs" />
         <option value="$PROJECT_DIR$/../BossLevelEnd.cs" />
         <option value="$PROJECT_DIR$/../Enemy_Spawner.cs" />
         <option value="$PROJECT_DIR$/boss_destruct.cs" />
-        <option value="$PROJECT_DIR$/../NextLevel.cs" />
-        <option value="$PROJECT_DIR$/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/../LossManager.cs" />
+        <option value="$PROJECT_DIR$/../NextLevel.cs" />
+        <option value="$PROJECT_DIR$/MenuScript.cs" />
+        <option value="$PROJECT_DIR$/PauseMenu.cs" />
       </list>
     </option>
   </component>

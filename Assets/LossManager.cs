@@ -16,7 +16,7 @@ public class LossManager : MonoBehaviour
         lossmainButton.onClick.AddListener(mainmenucall);
         lossquitButton.onClick.AddListener(quitcall);
         lossrestartButton.onClick.AddListener(restartcall);
-  
+        Time.timeScale = 1;
         CanvasC.SetActive(false);
     }
     
@@ -29,7 +29,7 @@ public class LossManager : MonoBehaviour
             if (GameObject.FindGameObjectsWithTag("Enemy").Length > 0
                 | GameObject.FindGameObjectsWithTag("Boss").Length > 0)
             {
-                
+                Time.timeScale = 0;
                 CanvasC.SetActive(true);
             }
         }
