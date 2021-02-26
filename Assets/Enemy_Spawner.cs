@@ -16,20 +16,10 @@ public class Enemy_Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameObject.FindGameObjectsWithTag("Boss").Length > 0)
-        {
-            spawn();
-            Debug.Log("hi");
-        }
-        
-    }
-
-    void spawn()
-    {
         if (Time.time > nextSpawn)
         {
             nextSpawn = Time.time + spawnrate;
             Instantiate(enemy, transform.position, Quaternion.identity);
         }
-    } 
+    }
 }

@@ -9,7 +9,6 @@ TagManager:
   - Rock
   - Bomb
   - PlayerProjectile
-  - Boss
   layers:
   - Default
   - TransparentFX
