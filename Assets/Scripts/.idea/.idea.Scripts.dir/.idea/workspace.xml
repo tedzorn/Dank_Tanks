@@ -33,19 +33,16 @@
     <setting file="file://$PROJECT_DIR$/EnemyCannon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Levelloader2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PauseMenu.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PlayerProjectile.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Enemy_Spawner.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/boss_destruct.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MovementScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MenuScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MenuScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LevelLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Enemymovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Bosslevelend.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CannonScript.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Projectile.cs" />
         <option value="$PROJECT_DIR$/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/../InstructionsMenu.cs" />
         <option value="$PROJECT_DIR$/CannonScript.cs" />
@@ -58,12 +55,6 @@
         <option value="$PROJECT_DIR$/Levelloader2.cs" />
         <option value="$PROJECT_DIR$/MenuScript.cs" />
         <option value="$PROJECT_DIR$/Enemymovement.cs" />
-        <option value="$PROJECT_DIR$/EnemyCollision.cs" />
-        <option value="$PROJECT_DIR$/../Bosslevelend.cs" />
-        <option value="$PROJECT_DIR$/boss_destruct.cs" />
-        <option value="$PROJECT_DIR$/../Enemy_Spawner.cs" />
-        <option value="$PROJECT_DIR$/PlayerProjectile.cs" />
-        <option value="$PROJECT_DIR$/Projectile.cs" />
       </list>
     </option>
   </component>
@@ -101,7 +92,6 @@
       <workItem from="1612842726727" duration="120000" />
       <workItem from="1613242617418" duration="1084000" />
       <workItem from="1613711426933" duration="6280000" />
-      <workItem from="1614299474775" duration="1984000" />
     </task>
     <servers />
   </component>
