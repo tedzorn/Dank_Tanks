@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyCannon : MonoBehaviour
+public class ShotgunEnemyCannon : MonoBehaviour
 {
     // Start is called before the first frame update
     private Vector3 z_angle;
@@ -25,32 +25,32 @@ public class EnemyCannon : MonoBehaviour
     {
         
         //waitTime += Time.deltaTime;
-       // if (waitTime >= 1f)
-       // {
-          //  waitTime = waitTime % 1f;
-          if (gObj??false)
-          {
-              GunMovement();
-          }
-          //  }
+        // if (waitTime >= 1f)
+        // {
+        //  waitTime = waitTime % 1f;
+        if (gObj??false)
+        {
+            GunMovement();
+        }
+        //  }
 
-      waitTime += Time.deltaTime;
+        waitTime += Time.deltaTime;
 
-      if (waitTime >= 1f)
-      {
-          if (gObj ?? false)
-          {
-              Fire();
-          }
+        if (waitTime >= 3f)
+        {
+            if (gObj ?? false)
+            {
+                Fire();
+            }
 
-          waitTime = 0f;
-      }
+            waitTime = 0f;
+        }
     }
 
     void GunMovement()
     {
         
-            playerrb = gObj.GetComponent<Rigidbody2D>();
+        playerrb = gObj.GetComponent<Rigidbody2D>();
         
 
         Vector3 playerLocation = playerrb.position;

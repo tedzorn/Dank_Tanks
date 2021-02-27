@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ public class MovementScript : MonoBehaviour
     public string keyPlantBomb;
     public GameObject bombPrefab;
     public GameObject tank;
+    private Rigidbody2D rb2D;
     
     bool moveForward = false;
     bool moveReverse = false;
@@ -27,6 +29,7 @@ public class MovementScript : MonoBehaviour
     float rotateAcceleration = 4f;
     float rotateDeceleration = 10f;
     float rotateSpeedMax = 130f;
+    
 
     void Update()
     {
@@ -147,9 +150,9 @@ public class MovementScript : MonoBehaviour
                 moveSpeed = 0;
             }
         }
-
+        
         transform.Translate(0f, moveSpeed * Time.deltaTime, 0f);
-
+        //transform.Translate(new Vector3(0, moveSpeed * Time.deltaTime));
         
         if(Input.GetKeyDown(keyMoveReverse))
         {
@@ -186,6 +189,7 @@ public class MovementScript : MonoBehaviour
         }
 
         transform.Translate(0f, moveSpeedReverse * Time.deltaTime * -1f, 0f);
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -195,4 +199,13 @@ public class MovementScript : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    
+    void OnCollisionEnter(Collision collision) 
+    {
+        if(collision.gameObject.CompareTag("Rock"))
+        {
+            rb2D.velocity = Vector2.zero;
+        }
+    }
+    
 }
