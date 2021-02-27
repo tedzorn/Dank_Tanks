@@ -36,7 +36,7 @@ public class EnemyCannon : MonoBehaviour
 
       waitTime += Time.deltaTime;
 
-      if (waitTime >= 3f)
+      if (waitTime >= 1f)
       {
           if (gObj ?? false)
           {

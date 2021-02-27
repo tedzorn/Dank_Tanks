@@ -316,13 +316,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
-  m_AnchoredPosition: {x: 374.21, y: -411.12}
-  m_SizeDelta: {x: 748.3063, y: 500.5207}
-=======
   m_AnchoredPosition: {x: 303.6, y: -397.2}
   m_SizeDelta: {x: 607.0292, y: 472.72845}
->>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &405928935
 MonoBehaviour:
@@ -357,8 +352,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Shoot all the enemies in a level to move on.\nThere are many types of
-    tanks, each with their own weapon. \nSome tanks are smarter than others, so watch
-    out for them. \nPick up tokens for upgrades.\n\t\t\t\t\t\tHave Fun! \n"
+    tanks, each with their own strategies.\nSome tanks are smarter than others, so
+    watch out for them. \n\nHave Fun! \n"
 --- !u!222 &405928936
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -401,13 +396,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
-  m_AnchoredPosition: {x: -374.15, y: -420.8}
-  m_SizeDelta: {x: 748.3063, y: 519.8869}
-=======
   m_AnchoredPosition: {x: -315.1, y: -411.5}
   m_SizeDelta: {x: 630.18945, y: 501.3587}
->>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &513726117
 MonoBehaviour:
@@ -443,13 +433,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Use WASD to move \nW is Accelerate( move forward in the direction your
     facing)\nA is Turn Left\nD is Turn Right\nS is Reverse(Deccelerate, and move
-<<<<<<< Updated upstream
-    backwards)\nMove the mouse to aim\nShoot with Spacebar or Right Click\nEscape
-    quits the game\n[Add New Controls Here]\n"
-=======
     backwards)\nMove the mouse to aim\nShoot with Spacebar or Left Click\nEscape
     quits the game\n"
->>>>>>> Stashed changes
 --- !u!222 &513726118
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -574,11 +559,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
-  m_AnchoredPosition: {x: 3.2, y: -345}
-=======
   m_AnchoredPosition: {x: 325, y: -292}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 463.22168, y: 95.44643}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &768014275
@@ -625,7 +606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2ae4cd5bc5c345a0a2cf0d27f202c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _projectile: {fileID: 7721305939640050229, guid: 9a08741977a094c9cbdccf7d3654eff4,
+  _projectile: {fileID: 1301073168631072324, guid: f45b28dfeaa564c048e39fc7235974b6,
     type: 3}
 --- !u!212 &768014278
 SpriteRenderer:
@@ -1081,7 +1062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.2, y: 321.9}
+  m_AnchoredPosition: {x: 3.2, y: 300}
   m_SizeDelta: {x: 1061.8684, y: 208.42392}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1980381907
@@ -1181,6 +1162,10 @@ MonoBehaviour:
   keyMoveReverse: s
   keyRotateRight: d
   keyRotateLeft: a
+  keyPlantBomb: e
+  bombPrefab: {fileID: 7721305939640050229, guid: 3f46d73654bb948fd950506531675c6d,
+    type: 3}
+  tank: {fileID: 2028491663}
 --- !u!212 &2028491666
 SpriteRenderer:
   m_ObjectHideFlags: 0

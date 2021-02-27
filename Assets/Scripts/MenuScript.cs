@@ -13,7 +13,7 @@ public class MenuScript : MonoBehaviour
         instructButton.onClick.AddListener(instructioncall);
         qButton.onClick.AddListener(quitcall);
         startButton.onClick.AddListener(startcall);
-        Screen.SetResolution(1280, 720, false);
+        
     }
 
     
