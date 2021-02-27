@@ -7,6 +7,8 @@ public class CannonScript : MonoBehaviour
     private Vector3 z_angle;
     private float angle = 1.0f;
     public GameObject _projectile;
+    private float nextShot = 0f;
+    public float shotRate = 0.5f;
     
     void Update()
     {
@@ -20,8 +22,13 @@ public class CannonScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
-            Fire();
+            if (Time.time > nextShot)
+            {
+                nextShot = Time.time + shotRate;
+                Fire();
+            }
         }
+
     }
 
     void Fire()
