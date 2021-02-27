@@ -11,7 +11,6 @@ public class Projectile : MonoBehaviour
 	{
 		_rb = GetComponent<Rigidbody2D>();
 		_rb.velocity = velocity;
-
 		Destroy(gameObject, 10f);
 	}
 

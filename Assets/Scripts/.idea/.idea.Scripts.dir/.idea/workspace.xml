@@ -30,30 +30,23 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Projectile.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../LossManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EnemyCannon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EnemyCannon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Levelloader2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PauseMenu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerProjectile.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Enemy_Spawner.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../NextLevel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../BossLevelEnd.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Enemy_Spawner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/boss_destruct.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MovementScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MenuScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LevelLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Enemymovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CannonScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CannonScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Projectile.cs" />
         <option value="$PROJECT_DIR$/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/../InstructionsMenu.cs" />
-        <option value="$PROJECT_DIR$/CannonScript.cs" />
-        <option value="$PROJECT_DIR$/EnemyCannon.cs" />
-        <option value="$PROJECT_DIR$/MovementScript.cs" />
         <option value="$PROJECT_DIR$/../PauseMenu.cs" />
         <option value="$PROJECT_DIR$/../LevelLoader.cs" />
         <option value="$PROJECT_DIR$/../EnemyCollision.cs" />
@@ -67,6 +60,10 @@
         <option value="$PROJECT_DIR$/../NextLevel.cs" />
         <option value="$PROJECT_DIR$/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/../LossManager.cs" />
+        <option value="$PROJECT_DIR$/Projectile.cs" />
+        <option value="$PROJECT_DIR$/MovementScript.cs" />
+        <option value="$PROJECT_DIR$/EnemyCannon.cs" />
+        <option value="$PROJECT_DIR$/CannonScript.cs" />
       </list>
     </option>
   </component>
@@ -104,6 +101,7 @@
       <workItem from="1612842726727" duration="120000" />
       <workItem from="1613242617418" duration="1084000" />
       <workItem from="1613711426933" duration="6280000" />
+      <workItem from="1614385160580" duration="606000" />
     </task>
     <servers />
   </component>

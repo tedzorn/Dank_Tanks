@@ -27,9 +27,10 @@ public class MovementScript : MonoBehaviour
     float rotateAcceleration = 4f;
     float rotateDeceleration = 10f;
     float rotateSpeedMax = 130f;
-
+	bool pause = true;
     void Update()
     {
+		
 
         if (Input.GetKeyDown(keyPlantBomb))
         {
@@ -186,7 +187,9 @@ public class MovementScript : MonoBehaviour
         }
 
         transform.Translate(0f, moveSpeedReverse * Time.deltaTime * -1f, 0f);
+		
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
