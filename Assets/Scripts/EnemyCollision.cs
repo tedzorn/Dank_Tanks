@@ -15,9 +15,10 @@ public class EnemyCollision : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("PlayerProjectile") | other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("PlayerProjectile") | other.gameObject.CompareTag("Player") | 
+            other.gameObject.CompareTag("Boss"))
         {
             Destroy(gameObject);
         }
