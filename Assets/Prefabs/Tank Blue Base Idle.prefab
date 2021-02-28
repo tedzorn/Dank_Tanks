@@ -136,7 +136,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.03517109, y: 0.08094299}
@@ -163,7 +163,6 @@ GameObject:
   - component: {fileID: 6846947388207801606}
   - component: {fileID: 6846947388207801600}
   - component: {fileID: 6846947388207801601}
-  - component: {fileID: 6846947388207801603}
   m_Layer: 0
   m_Name: Tank Blue Turret Idle
   m_TagString: Player
@@ -249,29 +248,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _projectile: {fileID: 1301073168631072324, guid: f45b28dfeaa564c048e39fc7235974b6,
     type: 3}
---- !u!61 &6846947388207801603
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6846947388207801607}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.05811888, y: -0.143713}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.3791801, y: 0.461165}
-    oldSize: {x: 2.56, y: 5.12}
-    newSize: {x: 2.56, y: 5.12}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.6898346, y: 3.7887678}
-  m_EdgeRadius: 0
+  shotRate: 0.5
