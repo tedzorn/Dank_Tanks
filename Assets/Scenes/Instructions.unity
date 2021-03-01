@@ -431,10 +431,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Use WASD to move \nW is Accelerate( move forward in the direction your
-    facing)\nA is Turn Left\nD is Turn Right\nS is Reverse(Deccelerate, and move
-    backwards)\nMove the mouse to aim\nShoot with Spacebar or Left Click\nEscape
-    quits the game\n"
+  m_Text: 'W - Forward Thrust
+
+    A - Turn Left
+
+    D - Turn Right
+
+    S - Reverse
+    Thrust
+
+    Mouse - Aim
+
+    Space/Left Click - Shoot
+
+    P - Pause
+
+    E -
+    Place Bomb'
 --- !u!222 &513726118
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -608,6 +621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _projectile: {fileID: 1301073168631072324, guid: f45b28dfeaa564c048e39fc7235974b6,
     type: 3}
+  shotRate: 0.5
 --- !u!212 &768014278
 SpriteRenderer:
   m_ObjectHideFlags: 0
