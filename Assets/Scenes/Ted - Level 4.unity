@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9765fd38d40144356980e252fd23fb73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gObj: {fileID: 0}
   pooledBullet: {fileID: 5895282138059307312, guid: 8e6f1dba5737449f2ade3b03534616a4,
     type: 3}
 --- !u!1 &373418667
@@ -1298,7 +1299,7 @@ PrefabInstance:
     - target: {fileID: 5765597506999429586, guid: ff0e5462d66cd444ab0144149bfabd4f,
         type: 3}
       propertyPath: m_Text
-      value: Level 3
+      value: Level 4
       objectReference: {fileID: 0}
     - target: {fileID: 5765597507990016695, guid: ff0e5462d66cd444ab0144149bfabd4f,
         type: 3}
