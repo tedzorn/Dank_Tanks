@@ -11,15 +11,6 @@ public class boss_movement : MonoBehaviour
     public float rotateSpeed = 5.0f;
     private Vector3 lookAtPosition;
     private float angle = 1.0f;
-    private float lowx;
-    private float highx;
-    private float lowy;
-    private float highy;
-    float whatwayy = 0f;
-    float whatwayx = 0f;
-    
-    
-
     void Start()
     {
         bossrb = gameObject.GetComponent<Rigidbody2D>();
@@ -43,41 +34,11 @@ public class boss_movement : MonoBehaviour
 
     void BossMovement()
     {
-        transform.Translate(0f,Time.deltaTime, 0f);
+        transform.Translate(0f, 0.3f * Time.deltaTime, 0f);
     }
-    void BossRotation(float xchange, float ychange)
+    void BossRotation()
     {
-        lowx = -8f;
-        highx = 8f;
-        lowy = -5f;
-        highy = 8f;
-       if (xchange == 1)
-        {
-            lowx = 0f;
-            highx = 8f;
-
-        }
-       if (xchange == 2)
-       {
-           lowx = -8f;
-           highx = 0f;
-
-       }
-
-        if (ychange == 1)
-        {
-            lowy = 0f;
-            highy = 8f;
-            
-        }
-
-        if (ychange == 2f)
-        {
-            lowy = -5f;
-            highy = 0f;
-        }
-        lookAtPosition = new Vector3(Random.Range(lowx, highx),0, Random.Range(lowy, highy) );
-        
+        lookAtPosition = new Vector3(Random.Range(-20f, 20f),0, Random.Range(-20f, 20f) );
         float distanceX = lookAtPosition.x - transform.position.x;
         float distanceY = lookAtPosition.y - transform.position.y;
         float angle = Mathf.Atan2(distanceX, distanceY) * Mathf.Rad2Deg;
@@ -95,46 +56,13 @@ public class boss_movement : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation,neededRotation, 1f * Time.deltaTime);
         */
     }
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Rock")
-        {
-            Debug.Log("here");
-            whatwayy = 0f;
-            whatwayx = 0f;
-            if (bossrb.position.y < -4)
-            {
-                whatwayy = 1f;
-                //what new spot to be a positive spot
-            }
-
-            if (bossrb.position.x < 0)
-            {
-                whatwayx = 1f;
-                //what the change to be in a positive way
-            }
-
-            if (bossrb.position.x > 7)
-            {
-                whatwayx = 2f;
-            }
-            if (bossrb.position.y > 8)
-            {
-                whatwayy = 2f;
-                //what new spot to be a positive spot
-            }
-
-
-
-
-            BossRotation(whatwayx,whatwayy);
-        }
-
         
-
-
-
-
+        
+            
+        BossRotation();
+        
     }
     
     
