@@ -333,7 +333,7 @@ PrefabInstance:
     - target: {fileID: 4434024410882738927, guid: 186581c538b1e4e6b89429b12d41392b,
         type: 3}
       propertyPath: m_Name
-      value: Boss
+      value: Boss Turret
       objectReference: {fileID: 0}
     - target: {fileID: 4434024411751347396, guid: 186581c538b1e4e6b89429b12d41392b,
         type: 3}
