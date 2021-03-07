@@ -447,7 +447,7 @@ MonoBehaviour:
     P - Pause
 
     E -
-    Place Mine'
+    Place Bomb'
 --- !u!222 &513726118
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.48235294, g: 0.09411765, b: 0.1254902, a: 1}
+  m_Color: {r: 0.12156863, g: 0.11764706, b: 0.11764706, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -822,7 +822,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Try me out!
+  m_Text: Try Me!
 --- !u!222 &889206538
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1398,7 +1398,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028491663}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -6, y: 3.9, z: 0}
+  m_LocalPosition: {x: -6.24, y: 3.9, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.5}
   m_Children:
   - {fileID: 768014276}

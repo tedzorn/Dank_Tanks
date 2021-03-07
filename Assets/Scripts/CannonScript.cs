@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 public class CannonScript : MonoBehaviour
 {
     private Vector3 z_angle;
@@ -14,11 +12,6 @@ public class CannonScript : MonoBehaviour
     
     void Update()
     {
-        if (PauseMenu.GameIsPaused)
-        {
-            return;
-        }
-        
         Vector3 mouseLocation = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mouseLocation.z = 0f;
 
@@ -27,7 +20,7 @@ public class CannonScript : MonoBehaviour
         z_angle = new Vector3(0, 0, angle);
         transform.eulerAngles = z_angle;
 
-        if (PauseMenu.GameIsPaused==false && Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             if (Time.time > nextShot)
             {
