@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject CanvasA;
     public Scene m_Scene;
     string sceneName;
+    public static bool GameIsPaused = false;
     
     public Button mainButton,resumeButton,restartButton ;
     // Start is called before the first frame update
@@ -32,6 +33,7 @@ public class PauseMenu : MonoBehaviour
         {
             pausefunction();
         }
+        
     }
     public void mainmenucall()
     {
@@ -45,6 +47,7 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1;
         CanvasA.SetActive(false);
+        GameIsPaused = false;
     }
 
     public void restartcall()
@@ -56,7 +59,8 @@ public class PauseMenu : MonoBehaviour
     public void pausefunction()
     {
         Time.timeScale = 0;
-        CanvasA.SetActive(true);    
+        CanvasA.SetActive(true);
+        GameIsPaused = true;
     }
 }
 
