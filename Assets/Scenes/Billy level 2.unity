@@ -1339,7 +1339,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1218327330
 GameObject:
@@ -1485,7 +1485,7 @@ PrefabInstance:
     - target: {fileID: 5765597507990016699, guid: ff0e5462d66cd444ab0144149bfabd4f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5765597507990016699, guid: ff0e5462d66cd444ab0144149bfabd4f,
         type: 3}
@@ -1554,95 +1554,144 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff0e5462d66cd444ab0144149bfabd4f, type: 3}
---- !u!1001 &1738277001
+--- !u!1001 &1686992387
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4434024410882738921, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 989042535
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024410882738921, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347396, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1648769585
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347396, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347397, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_Name
-      value: Tank Green Base Idle (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.975659
+      value: -3.97
       objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.3855114
+      value: -4.22
       objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
         type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447430, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_Name
+      value: Tank Green Base Idle 1 (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 186581c538b1e4e6b89429b12d41392b, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d039b5d20e80c4c4bb37ef2512c606b1, type: 3}
+--- !u!1001 &1704866475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.749407
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.3613123
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447428, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005757516165447430, guid: d039b5d20e80c4c4bb37ef2512c606b1,
+        type: 3}
+      propertyPath: m_Name
+      value: Tank Green Base Idle 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d039b5d20e80c4c4bb37ef2512c606b1, type: 3}
 --- !u!1 &1740493031
 GameObject:
   m_ObjectHideFlags: 0
@@ -4060,95 +4109,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1001 &1924131512
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4434024410882738921, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 989042535
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024410882738921, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347396, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1648769585
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347396, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347397, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_Name
-      value: Tank Green Base Idle
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -8.485362
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.44066173
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4434024411751347399, guid: 186581c538b1e4e6b89429b12d41392b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 186581c538b1e4e6b89429b12d41392b, type: 3}
 --- !u!1001 &2040190941
 PrefabInstance:
   m_ObjectHideFlags: 0
