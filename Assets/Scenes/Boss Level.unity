@@ -344,7 +344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 9005757516165447430, guid: d039b5d20e80c4c4bb37ef2512c606b1, type: 3}
   nextSpawn: 0
-  spawnrate: 15
+  spawnrate: 10
 --- !u!4 &840024166
 Transform:
   m_ObjectHideFlags: 0
@@ -1640,7 +1640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 9005757516165447430, guid: d039b5d20e80c4c4bb37ef2512c606b1, type: 3}
   nextSpawn: 5
-  spawnrate: 15
+  spawnrate: 10
 --- !u!4 &1742201089
 Transform:
   m_ObjectHideFlags: 0
