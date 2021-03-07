@@ -6,7 +6,7 @@ public class Enemy_Spawner : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject enemy;
-    private float nextSpawn = 0.0f;
+    public float nextSpawn = 0.0f;
     public float spawnrate = 5f;
     void Start()
     {

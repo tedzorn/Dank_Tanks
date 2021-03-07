@@ -31,7 +31,11 @@ public class PauseMenu : MonoBehaviour
         
         if (Input.GetKey(KeyCode.P))
         {
-            pausefunction();
+            if (NextLevel.nlamon == false && LossManager.amon == false)
+            {
+                pausefunction();
+            }
+            
         }
         
     }
@@ -53,6 +57,7 @@ public class PauseMenu : MonoBehaviour
     public void restartcall()
     {
         Time.timeScale = 1;
+        GameIsPaused = false;
         SceneManager.LoadScene(sceneName);
     }
 

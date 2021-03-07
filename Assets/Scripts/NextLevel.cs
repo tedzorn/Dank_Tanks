@@ -9,12 +9,12 @@ public class NextLevel : MonoBehaviour
     public GameObject CanvasB;
     public Scene m_Scene;
     string sceneName;
-    
+    public static bool nlamon = false;
     public Button mainButton,nextButton ;
     // Start is called before the first frame update
     void Start()
     {
-        
+        nlamon = false;
         mainButton.onClick.AddListener(mainmenucall);
         nextButton.onClick.AddListener(nextcall);
 
@@ -30,14 +30,14 @@ public class NextLevel : MonoBehaviour
         {
             
             nextlevelfun();
-
+            nlamon = true;
         }
         
         
     }
     public void mainmenucall()
     {
-        
+        nlamon = false;
         SceneManager.LoadScene("Main Menu");
         
     }
@@ -46,13 +46,13 @@ public class NextLevel : MonoBehaviour
 
     public void nextcall()
     {
-        
+        nlamon = false;
         SceneManager.LoadScene(m_Scene.buildIndex + 1);
     }
 
     public void nextlevelfun()
     {
-        
+        nlamon = false;
         CanvasB.SetActive(true);
     }
     

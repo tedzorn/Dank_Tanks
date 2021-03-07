@@ -183,7 +183,7 @@ PrefabInstance:
     - target: {fileID: 5471115630157194538, guid: 3dc1f833493c747cb83b48360428722a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5471115630157194538, guid: 3dc1f833493c747cb83b48360428722a,
         type: 3}
@@ -532,7 +532,7 @@ PrefabInstance:
     - target: {fileID: 729282955973271242, guid: 667d6d385f29e4597acd8bb2594ad151,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 729282955973271242, guid: 667d6d385f29e4597acd8bb2594ad151,
         type: 3}
@@ -3975,7 +3975,7 @@ PrefabInstance:
     - target: {fileID: 3448177982154299654, guid: bf415042a3d454dc5896d3f6277d31fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3448177982154299654, guid: bf415042a3d454dc5896d3f6277d31fa,
         type: 3}
@@ -4127,75 +4127,6 @@ MonoBehaviour:
   waitTime: 0
   _projectile: {fileID: 7721305939640050229, guid: 9a08741977a094c9cbdccf7d3654eff4,
     type: 3}
---- !u!1001 &243595734538844799
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 243595735342914383, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 243595735342914383, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.63
-      objectReference: {fileID: 0}
-    - target: {fileID: 243595735342914383, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 243595735342914383, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 243595735342914383, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 243595735342914383, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 243595735342914383, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 243595735342914383, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 243595735342914383, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 243595735342914383, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 243595735342914383, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 243595735342914387, guid: 72aec3643a538425b9c88a2680f36b82,
-        type: 3}
-      propertyPath: m_Name
-      value: Tank Grey Base Idle
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 72aec3643a538425b9c88a2680f36b82, type: 3}
 --- !u!1001 &5765597506889953760
 PrefabInstance:
   m_ObjectHideFlags: 0
