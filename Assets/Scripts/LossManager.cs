@@ -8,7 +8,7 @@ public class LossManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject CanvasC;
-    
+    public static bool amon = false;
     public Button lossmainButton,lossquitButton,lossrestartButton ;
     void Start()
     {
@@ -31,25 +31,27 @@ public class LossManager : MonoBehaviour
             {
                 Time.timeScale = 0;
                 CanvasC.SetActive(true);
+                amon = true;
             }
         }
     }
      void mainmenucall()
-    {
-        
-        SceneManager.LoadScene("Main Menu");
+     {
+         amon = false;
+         SceneManager.LoadScene("Main Menu");
         
     }
 
      void quitcall()
-    {
-        Application.Quit();
+     {
+         amon = false;
+         Application.Quit();
     }
 
      void restartcall()
-    {
-        
-        SceneManager.LoadScene("Level 1");
+     {
+         amon = false;
+         SceneManager.LoadScene("Level 1");
     }
 }
 
