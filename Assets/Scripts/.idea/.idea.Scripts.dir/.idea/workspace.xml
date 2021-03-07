@@ -68,9 +68,9 @@
         <option value="$PROJECT_DIR$/MenuScript.cs" />
         <option value="$PROJECT_DIR$/boss_movement.cs" />
         <option value="$PROJECT_DIR$/Enemy_Spawner.cs" />
-        <option value="$PROJECT_DIR$/LossManager.cs" />
         <option value="$PROJECT_DIR$/NextLevel.cs" />
         <option value="$PROJECT_DIR$/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/LossManager.cs" />
       </list>
     </option>
   </component>
