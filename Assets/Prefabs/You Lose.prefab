@@ -228,7 +228,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Restart Game
+  m_Text: Restart
 --- !u!1 &729282956751366119
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +470,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanvasC: {fileID: 729282957624368954}
+  m_Scene:
+    m_Handle: 0
   lossmainButton: {fileID: 729282957369535955}
   lossquitButton: {fileID: 729282957716111565}
   lossrestartButton: {fileID: 729282956408901835}
