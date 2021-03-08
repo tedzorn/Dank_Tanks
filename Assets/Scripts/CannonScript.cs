@@ -9,6 +9,9 @@ public class CannonScript : MonoBehaviour
     public GameObject _projectile;
     private float nextShot = 0f;
     public float shotRate = 0.5f;
+
+    private AudioSource playerSource;
+    public AudioClip fireClip;
     
     void Update()
     {
@@ -26,6 +29,7 @@ public class CannonScript : MonoBehaviour
             {
                 nextShot = Time.time + shotRate;
                 Fire();
+
             }
         }
 
@@ -39,5 +43,6 @@ public class CannonScript : MonoBehaviour
         Vector3 aimDrection = (mouseLocation - transform.position).normalized;
         var newProjectile = Instantiate(_projectile, transform.position + transform.up * 0.9f, transform.rotation) as GameObject;
         newProjectile.GetComponent<PlayerProjectile>().Initialize(aimDrection * 5);
+        GetComponent<AudioSource>().PlayOneShot(fireClip, .3f);
     }
 }

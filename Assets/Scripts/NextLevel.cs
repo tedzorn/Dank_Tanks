@@ -11,6 +11,11 @@ public class NextLevel : MonoBehaviour
     string sceneName;
     
     public Button mainButton,nextButton ;
+
+    private AudioSource levelSource;
+    public AudioClip nextLevelClip;
+
+    private bool playedSound = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +59,11 @@ public class NextLevel : MonoBehaviour
     {
         
         CanvasB.SetActive(true);
+        if (!playedSound) {
+            GetComponent<AudioSource>().PlayOneShot(nextLevelClip, .3f);
+            playedSound = true;
+        }
+        
     }
     
 }
