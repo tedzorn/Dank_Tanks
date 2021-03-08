@@ -15,11 +15,47 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1.unity
     guid: 3046cd2291021419fb24850cea0d18b4
   - enabled: 1
+    path: Assets/Scenes/Zach - Level 11.unity
+    guid: 21a30be9ae9bd45abbed210053b827aa
+  - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Billy Level 1.unity
+    guid: 345356c2c216d404f80a1247b157a58e
+  - enabled: 1
+    path: Assets/Scenes/Billy level 2.unity
+    guid: ea0653d655ed24dd29fe6a4eea213bc8
+  - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: ddac3653635004554a7971a247863c3d
+  - enabled: 1
+    path: Assets/Scenes/Ted - Level 4.unity
+    guid: 748b6bd3f635144e18361c3ea01427fe
+  - enabled: 1
+    path: Assets/Scenes/Ted - Level 5.unity
+    guid: 4466ab23dd7824a84a35db83560ddea2
+  - enabled: 1
+    path: Assets/Scenes/Level 0.unity
+    guid: 298b407e8f1f148f987cf5cae58a8489
+  - enabled: 1
+    path: Assets/Scenes/Ted - Level 6.unity
+    guid: 4bda3dfa7816b4950bd91ad75986ae81
+  - enabled: 1
+    path: Assets/Scenes/Zach - Level 10.unity
+    guid: a9b389e0582704aa5b3168d41475fd32
+  - enabled: 1
+    path: Assets/Scenes/Zach - Level 12.unity
+    guid: 82ea855fda5d74d9cbb1db498730dd67
+  - enabled: 1
+    path: Assets/Scenes/Ted - Level 7.unity
+    guid: a68f7753e4d2349868ae30f197ad31ed
+  - enabled: 1
+    path: Assets/Scenes/Ted - Level 8.unity
+    guid: 3e91cc0ac0a204c579200c1be76287e4
+  - enabled: 1
+    path: Assets/Scenes/Level 13.unity
+    guid: 054bfa946c75f487ca8e9d5f9e28ab4c
   - enabled: 1
     path: Assets/Scenes/Boss Level.unity
     guid: f326d35b6d0ef43a9afd1a7ed6ce8278
