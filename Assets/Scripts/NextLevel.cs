@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,7 +9,7 @@ public class NextLevel : MonoBehaviour
     public GameObject CanvasB;
     public Scene m_Scene;
     string sceneName;
-    
+    public static bool nlamon = false;
     public Button mainButton,nextButton ;
 
     private AudioSource levelSource;
@@ -19,7 +19,7 @@ public class NextLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        nlamon = false;
         mainButton.onClick.AddListener(mainmenucall);
         nextButton.onClick.AddListener(nextcall);
 
@@ -35,14 +35,14 @@ public class NextLevel : MonoBehaviour
         {
             
             nextlevelfun();
-
+            nlamon = true;
         }
         
         
     }
     public void mainmenucall()
     {
-        
+        nlamon = false;
         SceneManager.LoadScene("Main Menu");
         
     }
@@ -51,19 +51,18 @@ public class NextLevel : MonoBehaviour
 
     public void nextcall()
     {
-        
+        nlamon = false;
         SceneManager.LoadScene(m_Scene.buildIndex + 1);
     }
 
     public void nextlevelfun()
     {
-        
+        nlamon = false;
         CanvasB.SetActive(true);
-        if (!playedSound) {
+	if (!playedSound) {
             GetComponent<AudioSource>().PlayOneShot(nextLevelClip, .3f);
             playedSound = true;
         }
-        
     }
     
 }

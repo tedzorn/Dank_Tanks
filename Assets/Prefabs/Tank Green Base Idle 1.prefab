@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 9005757517024887085}
   - component: {fileID: 9005757517024887082}
   - component: {fileID: 9005757517024887083}
-  - component: {fileID: 5919758568137908518}
+  - component: {fileID: 5406838073028179612}
   m_Layer: 0
   m_Name: Tank Green Turret Idle
   m_TagString: Enemy
@@ -251,7 +251,7 @@ MonoBehaviour:
   _projectile: {fileID: 7721305939640050229, guid: 9a08741977a094c9cbdccf7d3654eff4,
     type: 3}
   fireClip: {fileID: 8300000, guid: aa0dc74dd306a4490814e12973d8c356, type: 3}
---- !u!82 &5919758568137908518
+--- !u!82 &5406838073028179612
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -76,6 +76,6 @@ public class EnemyCannon : MonoBehaviour
         
         var newProjectile = Instantiate(_projectile, transform.position + transform.up * 1.15f, transform.rotation) as GameObject;
         newProjectile.GetComponent<Projectile>().Initialize(aimDrection * 5);
-        GetComponent<AudioSource>().PlayOneShot(fireClip, .3f);
+	GetComponent<AudioSource>().PlayOneShot(fireClip, .3f);
     }
 }

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5943754422924332683}
   - component: {fileID: 5943754422924332682}
   - component: {fileID: 5943754422924332789}
-  - component: {fileID: 7247297330829967506}
+  - component: {fileID: 4778201311168762602}
   m_Layer: 0
   m_Name: Tank Green Turret Idle
   m_TagString: Enemy
@@ -146,7 +146,7 @@ MonoBehaviour:
   bulletsAmount: 5
   startAngle: 145
   endAngle: 225
---- !u!82 &7247297330829967506
+--- !u!82 &4778201311168762602
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

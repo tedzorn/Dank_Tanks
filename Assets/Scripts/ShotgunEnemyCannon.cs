@@ -12,9 +12,6 @@ public class ShotgunEnemyCannon : MonoBehaviour
     public float Gunrotationspeed = 0.5f;
     public float waitTime = 0f;
     public GameObject _projectile;
-
-    private AudioSource enemySource;
-    public AudioClip fireClip;
     
     void Start()
     {
@@ -76,7 +73,5 @@ public class ShotgunEnemyCannon : MonoBehaviour
         
         var newProjectile = Instantiate(_projectile, transform.position + transform.up * 1.15f, transform.rotation) as GameObject;
         newProjectile.GetComponent<Projectile>().Initialize(aimDrection * 5);
-        
-        GetComponent<AudioSource>().PlayOneShot(fireClip, .3f);
     }
 }

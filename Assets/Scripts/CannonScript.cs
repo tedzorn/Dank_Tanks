@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+
 
 public class CannonScript : MonoBehaviour
 {
@@ -15,6 +17,11 @@ public class CannonScript : MonoBehaviour
     
     void Update()
     {
+        if (PauseMenu.GameIsPaused)
+        {
+            return;
+        }
+        
         Vector3 mouseLocation = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mouseLocation.z = 0f;
 
@@ -23,13 +30,12 @@ public class CannonScript : MonoBehaviour
         z_angle = new Vector3(0, 0, angle);
         transform.eulerAngles = z_angle;
 
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (PauseMenu.GameIsPaused==false && Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             if (Time.time > nextShot)
             {
                 nextShot = Time.time + shotRate;
                 Fire();
-
             }
         }
 
@@ -43,6 +49,6 @@ public class CannonScript : MonoBehaviour
         Vector3 aimDrection = (mouseLocation - transform.position).normalized;
         var newProjectile = Instantiate(_projectile, transform.position + transform.up * 0.9f, transform.rotation) as GameObject;
         newProjectile.GetComponent<PlayerProjectile>().Initialize(aimDrection * 5);
-        GetComponent<AudioSource>().PlayOneShot(fireClip, .3f);
+	GetComponent<AudioSource>().PlayOneShot(fireClip, .3f);
     }
 }
