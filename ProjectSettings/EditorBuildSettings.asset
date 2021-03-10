@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boss Level.unity
     guid: f326d35b6d0ef43a9afd1a7ed6ce8278
+  - enabled: 1
+    path: Assets/Scenes/You won the game.unity
+    guid: 9ba35801458b641feabcce064447c076
   m_configObjects: {}

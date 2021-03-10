@@ -20,7 +20,7 @@ public class BossLevelEnd : MonoBehaviour
         if (GameObject.FindGameObjectsWithTag("Enemy").Length <= 0 && GameObject.FindGameObjectsWithTag("Boss").Length <= 0)
         {
 	    GetComponent<AudioSource>().PlayOneShot(nextLevelClip, .3f);
-            SceneManager.LoadScene("Main Menu");
+            SceneManager.LoadScene("You won the game");
         }
     }
 }
